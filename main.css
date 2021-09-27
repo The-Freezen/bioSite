@@ -1,0 +1,25 @@
+body{
+font-family: 'Dancing Script', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'PT Sans Narrow', sans-serif;
+}
+nav{
+    background-color: #28aaf5;
+    overflow: hidden;
+}
+.nav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav a:hover{
+    background-color: #0301e0;
+    color: black;
+}
+.nav a.active{
+    background-color: #6f01f6;
+    color: white;
+}
